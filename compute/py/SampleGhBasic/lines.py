@@ -16,8 +16,7 @@ compute_url = os.getenv("RHINO_COMPUTE_URL", "http://localhost:6500/")
 import compute_rhino3d.Util
 
 compute_rhino3d.Util.url = compute_url
-# compute_rhino3d.Util.url = "https://compute8.iaac.net/"
-# compute_rhino3d.Util.apiKey = "macad26"
+
 compute_rhino3d.Util.apiKey = os.getenv("RHINO_COMPUTE_KEY", "")
 
 if not compute_rhino3d.Util.url.endswith("/"):

@@ -1,0 +1,7 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.defaultInterpreterPath": "C:/Users/etmaglari/IAAC/rhino-developer-samples/.venv/Scripts/python.exe",
+    "code-runner.executorMap": {
+        "python": "C:/Users/etmaglari/IAAC/rhino-developer-samples/.venv/Scripts/python.exe"
+    }
+}
